@@ -8,16 +8,18 @@ export function Navbar() {
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
             <Shield className="h-8 w-8 text-blue-600" />
-            <span className="ml-2 text-xl font-bold text-gray-900">ShieldPoint</span>
+            <Link href="/shieldpoint" className="ml-2 text-xl font-bold text-gray-900">
+              ShieldPoint
+            </Link>
           </div>
           <div className="flex space-x-4">
-            <Link href="/features" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
+            <Link href="/shieldpoint/features" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
               Features
             </Link>
-            <Link href="/pricing" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
+            <Link href="/shieldpoint/pricing" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
               Pricing
             </Link>
-            <Link href="/login" className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700">
+            <Link href="/shieldpoint/login" className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700">
               Get Started
             </Link>
           </div>

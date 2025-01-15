@@ -6,10 +6,10 @@ export function Sidebar() {
   const pathname = usePathname();
 
   const navigation = [
-    { name: 'Assessments', href: '/dashboard', icon: FileText },
-    { name: 'Reports', href: '/dashboard/reports', icon: BarChart },
-    { name: 'Team', href: '/dashboard/team', icon: Users },
-    { name: 'Settings', href: '/dashboard/settings', icon: Settings },
+    { name: 'Assessments', href: '/shieldpoint/dashboard', icon: FileText },
+    { name: 'Reports', href: '/shieldpoint/dashboard/reports', icon: BarChart },
+    { name: 'Team', href: '/shieldpoint/dashboard/team', icon: Users },
+    { name: 'Settings', href: '/shieldpoint/dashboard/settings', icon: Settings },
   ];
 
   return (

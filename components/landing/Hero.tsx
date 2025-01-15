@@ -13,7 +13,7 @@ export function Hero() {
           Transform your risk and control self-assessment process with our intelligent platform.
         </p>
         <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-          <Link href="/register" className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+          <Link href="/shieldpoint/register" className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
             Start Free Trial <ArrowRight className="ml-2 h-5 w-5" />
           </Link>
         
